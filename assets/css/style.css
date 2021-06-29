@@ -1,0 +1,49 @@
+#inner{
+	width: 100vw;
+	height: 100vh;
+}
+
+.display-logo{
+	--w: 150px;
+	width: var(--w);
+	height: var(--w);
+
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+	box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.splashes{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay ;
+}
+
+.social-m{
+	--w: 35px;
+	width: var(--w);
+	height: var(--w);
+
+	border-radius: 50%;
+
+	color: white;
+	background-color: #222;
+}
+
+.shadow-anima{
+	transition: 0.2s;
+}
+
+.shadow-anima:hover{
+	--t: -5px;
+	transform: translate(var(--t), var(--t));
+	/* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.sekat{
+	font-size: 24px;
+}
